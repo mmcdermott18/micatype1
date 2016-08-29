@@ -155,6 +155,9 @@ a:hover {text-decoration: none;}
 .white {
   background-color: white;
 }
+.two-col {
+  ng
+}
 header, footer {
   width: 100vw;
 }
@@ -173,6 +176,9 @@ ul {
 
 li {
   padding: 3px 0;
+}
+.italic {
+  font-style: italic;
 }
 
 .clearfix:before,
