@@ -109,8 +109,12 @@ a:hover {text-decoration: none;}
 }
 #main-content {
   margin: 0 0 0 0;
-  height: calc(100vh);
+  height: 100vh;
   overflow: hidden;
+}
+.single-col {
+  width: 60vw;
+  margin: 75px auto 0;
 }
 #bottomline {
   font-family: 'Space Mono', monospace;
@@ -147,6 +151,9 @@ a:hover {text-decoration: none;}
 }
 .serif {
   font-family: serif;
+}
+.white {
+  background-color: white;
 }
 header, footer {
   width: 100vw;

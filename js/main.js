@@ -22,6 +22,7 @@ $(document).ready(function() {
       $('#modal-menu').addClass("hide");
       $('header').addClass("blur");
       $('#main-content').addClass("blur");
+      $('.single-col').addClass("blur");
       $('footer').addClass("blur");
       var html = jQuery('html'); // it would make more sense to apply this to body, but IE7 won't have that
       html.data('scroll-position', scrollPosition);
@@ -32,6 +33,7 @@ $(document).ready(function() {
         $('#modal-menu').removeClass("hide");
         $('header').removeClass("blur");
         $('#main-content').removeClass("blur");
+        $('.single-col').removeClass("blur");
         $('footer').removeClass("blur");
         // un-lock scroll position
         var html = jQuery('html');
