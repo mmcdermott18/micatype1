@@ -197,3 +197,11 @@ li {
 .grey {color: #303030}
 .bg-lightGrey {background-color: #424242}
 .lightGrey {color: #424242}
+
+@media only screen and (max-width: 800px) {
+  .single-col {
+  width: 80vw;
+  margin: 75px auto 0;
+}
+}
+
